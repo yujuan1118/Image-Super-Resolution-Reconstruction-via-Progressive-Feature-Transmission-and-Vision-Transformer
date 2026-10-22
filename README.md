@@ -1,6 +1,6 @@
 # Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
 ```bash
-git clone https://github.com/yujuan1118/PFTNet-Super-Resolution.git
+git clone https://github.com/yujuan1118/Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer.git
 cd PFTNet-Super-Resolution
 pip install -r requirements.txt
 
