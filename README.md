@@ -1,20 +1,12 @@
 # Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
+
+### 專案檔案說明
+* `main.py`：包含 PFTNet 模型架構、PFA 漸進式注意力模組、DIV2K 資料集載入、150 輪訓練主迴圈，以及每 50 輪全體驗證集定量評估與對比圖繪製之完整程式碼。
+
+###  執行方式
 ```bash
-git clone https://github.com/yujuan1118/Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer.git
-cd Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
-pip install -r requirements.txt
+# 安裝相依套件
+pip install torch torchvision numpy matplotlib skimage pytorch-msssim tqdm
 
-Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer/
-├── dataset/             # 訓練與驗證集 (DIV2K / Flickr2K / 驗證影像)
-├── models/              # PFTNet 網路架構與 PFA 模組定義
-├── weights/             # 訓練權重存放區 (包含 best_pftnet.pth)
-├── train.py             # 模型訓練主程式 (含 Patch-based 全體評估機制)
-├── test.py              # 單張/批次超解析度推論與視覺化程式
-├── requirements.txt     # 專案相依套件列表
-└── README.md            # 專案說明文件
-
-# 開始訓練
-python train.py --epochs 150 --batch_size 32
-
-# 執行模型評估與推論
-python test.py --weights weights/best_pftnet.pth
+# 執行模型訓練與全體驗證集評估
+python train.py
