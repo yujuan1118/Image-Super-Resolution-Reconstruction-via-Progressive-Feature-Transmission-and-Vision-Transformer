@@ -1,10 +1,7 @@
 # Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
 ```bash
-# 1. 複製專案
 git clone https://github.com/yujuan1118/PFTNet-Super-Resolution.git
 cd PFTNet-Super-Resolution
-
-# 2. 安裝相依套件
 pip install -r requirements.txt
 
 PFTNet-Super-Resolution/
@@ -16,7 +13,7 @@ PFTNet-Super-Resolution/
 ├── requirements.txt     # 專案相依套件列表
 └── README.md            # 專案說明文件
 
-# 開始訓練 (150 epochs)
+# 開始訓練
 python train.py --epochs 150 --batch_size 32
 
 # 執行模型評估與推論
