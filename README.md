@@ -1,6 +1,12 @@
 # Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
+```bash
+# 1. 複製專案
 git clone https://github.com/yujuan1118/PFTNet-Super-Resolution.git
+cd PFTNet-Super-Resolution
+
+# 2. 安裝相依套件
 pip install -r requirements.txt
+
 PFTNet-Super-Resolution/
 ├── dataset/             # 訓練與驗證集 (DIV2K / Flickr2K / 驗證影像)
 ├── models/              # PFTNet 網路架構與 PFA 模組定義
