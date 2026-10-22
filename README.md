@@ -1,10 +1,10 @@
 # Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
 ```bash
 git clone https://github.com/yujuan1118/Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer.git
-cd PFTNet-Super-Resolution
+cd Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer
 pip install -r requirements.txt
 
-PFTNet-Super-Resolution/
+Image-Super-Resolution-Reconstruction-via-Progressive-Feature-Transmission-and-Vision-Transformer/
 ├── dataset/             # 訓練與驗證集 (DIV2K / Flickr2K / 驗證影像)
 ├── models/              # PFTNet 網路架構與 PFA 模組定義
 ├── weights/             # 訓練權重存放區 (包含 best_pftnet.pth)
