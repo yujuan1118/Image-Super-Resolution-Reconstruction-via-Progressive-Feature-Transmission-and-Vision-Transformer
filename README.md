@@ -9,4 +9,4 @@
 pip install torch torchvision numpy matplotlib skimage pytorch-msssim tqdm
 
 # 執行模型訓練與全體驗證集評估
-python train.py
+python main.py
